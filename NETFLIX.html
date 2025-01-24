@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<style>
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+.shade{
+    height: 101.4%;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-bottom: 400px;
+
+    
+
+    
+}
+.brand-title{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+
+}
+.lang{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bi-translate{
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+.btn-signup{
+    font-size: 20px;
+    color: black;
+    background-color: blue;
+    border: 10px;
+    border-radius: 20px;
+}
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    padding: 30px;
+    text-align: center;
+    padding-top: 120px;
+}
+main{
+    text-align: center;
+
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub-title{
+    font-size: 20px;
+}
+.main-entre{
+    font-size: 15px;
+}
+.em{
+    background-color: rgba(138, 133, 133, 0.534);
+    color: black;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+
+footer{
+background-color: black; 
+   color: white;
+}
+.membership{
+    text-align: center;
+}
+.help{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.footer-1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+.underline{
+    text-decoration: underline;
+}
+select{
+    border-radius: 5px;
+    background-color: rgba(250, 235, 215, 0.842);
+    font-family:inherit;
+}
+.for-card{
+    display: flex;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr ;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+     margin-top: 50px;
+     gap: 30px;
+
+
+}
+.for-card1{
+    animation-name: lideIn;
+    
+    display: flex;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr ;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    gap: 30px;
+    position:relative;
+    
+
+}
+
+@keyframes slideIn{
+    form{
+        margin-left: 0%;
+        transition: 1s;
+    }
+    50%{
+        height: 500px;
+        height: 300px;
+    }
+    to{
+        transition: 1s;
+        margin-left: 100%;
+    }
+} 
+ .movies{
+    border-radius: 5px;
+    animation-name:slideIn;
+    width: 200px;
+    transition: 1s;
+}
+.movies:hover{
+   
+    transform: rotate(360deg);
+    transition: 10s;
+} */
+
+.reason-join{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.reason-card{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(36, 33, 33);
+    border: 1px solid;
+    border-radius: 20px;
+
+
+}
+
+.card-body{
+    float: right;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.all-li{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+li{
+    background-color: rgba(78, 75, 75, 0.856);
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+</style>
+
+<body background="/public/image/NETFLIX.jpg">
+    <div class="shade">
+        <header>
+            <div class="brand-title">
+                <span>NETFLIX  </span>
+            </div>
+
+            <div class="lang">
+                <span class="bi bi-globe"></span>
+              <select>
+                <option> language</option>
+                <option value="English">English</option>
+                  <option value="हिंदी">हिंदी</option>
+              </select>
+              <button class="btn-signup"><a href="./netflix-login.html">Sign up</a> </button>
+            </div>
+
+        </header>
+
+        <section>
+            <div class="main-title">
+                <span>Unlimited movies,TV</span><br>
+                <span>shows, and more</span>
+            </div>
+
+            <div class="sub-title">
+                <span>Watch anywhere cancel any time.</span>
+            </div>
+
+        </section>
+
+        <main>
+            <div class="main-entre">
+                <span>Redy to wath?. Enter your email to create or restart your membership</span>
+            </div>
+
+            <div>
+                <input type="email" class="em"    placeholder="Enter your e-mail Address">
+                <button style="background-color: rgb(250, 0, 0); border-radius: 5px; border: none;">
+                    Get Started
+                </button>
+                
+            </div>
+            
+            
+        </main>
+
+        <div>
+           <h2 style="font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; padding-left: 90px; color: antiquewhite;">Tranding now</h2>
+         </div>
+
+
+        <div class="for-card">
+            
+            <div>
+                <marquee>   <img src="../public/image/lucky-baskhar.png" width="100%" class="movies">
+                </marquee>
+            </div>
+
+            <div>
+                <marquee> <img src="../public/image/miss-match.png" width="100%" class="movies">
+                </marquee>
+
+            </div>
+
+            <div>
+                <marquee>                <img src="../public/image/devara.png" width="100%" class="movies">
+                </marquee>
+
+            </div>
+
+            <div>
+               <marquee> <img src="../public/image/amaran.png" width="100%" class="movies"></marquee>
+
+            </div>
+
+            <div>
+               <marquee> <img src="../public/image/vicky-vidya.png" width="100%" class="movies">
+               </marquee>
+            </div>
+
+
+
+        </div>
+
+        <div>
+            <h2 style="font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; padding-left: 90px; color: antiquewhite; margin-bottom: -100px;">Only on Netflix</h2>
+          </div>
+ 
+
+
+        <div class="for-card1">
+            
+            <div>
+               <marquee> <img src="../public/image/money-hist.png" width="100%"  class="movies"></marquee>
+            </div>
+
+            <div>
+               <marquee><img src="../public/image/when-the-phone-ring.png" width="100px"  class="movies"></marquee> 
+
+            </div>
+
+            <div>
+               <marquee><img src="../public/image/stranger-think.png" width="100%"  class="movies"></marquee> 
+            </div>
+
+            <div>
+                <marquee><img src="../public/image/squid-game.png" width="100%"  class="movies">
+                </marquee>
+            </div>
+
+            <div>
+                <marquee><img src="../public/image/queen-of-tears.png" width="100%" class="movies"></marquee>
+            </div>
+
+        </div>
+
+
+        <div class="reason-join">
+            <div class="reason-card">
+                <div class="card-header">
+                    <span>Stories tailored to your taste</span>
+                </div>
+                <div class="card-body">
+                    <img src="../public/image/star-hand.png">
+                </div>
+            </div>
+        
+            <div class="reason-card">
+                <div class="card-header">
+                    <span>Cancel or switch plans anytime</span>
+                </div>
+                <div class="card-body">
+                    <img src="../public/image/handshake.png">
+                </div>
+            </div>
+        
+            <div class="reason-card">
+                <div class="card-header">
+                    <span>A place Just for kids</span>
+                </div>
+                <div class="card-body">
+                    <img src="../public/image/heart.png">
+                </div>
+            </div>
+        
+            <div class="reason-card">
+                <div class="card-header">
+                    <span>For your phone, tablet, laptop, and TV</span>
+                </div>
+                <div class="card-body">
+                    <img src="../public/image/tv.png">
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div>
+            <ol>
+                <details>
+                    <summary><li class="all-li"><span> <input type="radio" name="net"> <label ></label> </span> </span> <span class="bi bi-plus-lg"></span></li></summary>
+                    <span>Netflix is a streaming service that offers a wide vairiety of award-wining Tv shows,movies,anime,documentaries and more-on thousand of internet-
+                        connection devices<br> You can watch as you want,whenevr we want without a aingle ad-all for one low monthly price.There's always something new to 
+                        discover,and new TV shows and movie are added every week!
+                    </span>
+                </details>
+                <details>
+                    <summary><li class="all-li"><span> <input type="radio" name="net">How much does Netflix cost </span> <span class="bi bi-plus-lg"></span></li> </summary>
+                    <span>
+                        watch Netflix on your smartphone,tablet,smart TV,laptop or stramiminng device,all for one fixed monthly free. Plans range<br>
+                        from  &#8377;149 to  &#8377;649 a month.No extra costs,no contracts.
+                    </span>
+                </details>
+
+                <details>
+                    <summary><li class="all-li"><span>Where can I watch</span> <span class="bi bi-plus-lg"></span></li></summary>
+                    <span>Watch any anywhere, anytime.Sign in with your Netflix account to watch instatnly on the web at netflix.comfrom your peersonal<br>
+                    computer or on any other internet-connected device that offers Netflix app,including smart TVs,smartphones,tavlets,<br>
+                streaming media players and game consoles. You can also download your favourite shows with the iOS or Android app. Use download to watch while you're on the go<br>
+                and without an internet connection.take Netflix with you anywhere.</span>
+                </details>
+
+                <details>
+                    <summary><li class="all-li"><span>How do I cancel</span> <span class="bi bi-plus-lg"></span></li></summary>
+                    <span> Netflix is a flexible.There are no annying contracts  and no commitments. You can easily cancel your account online in two<br>cliks.There are no  
+                    cancellation fees-start or stop your account anytime.</span>
+                </details>
+
+                <details>
+                    <summary><li class="all-li"><span>What can I watch Netflix?</span> <span class="bi bi-plus-lg"></span></li>
+                    </summary>
+                    <span>
+                        Netflix  has a extensive library films,documentaries,TV shows,animme,award-wining Netflix Originals,
+                        <br>and more.Watch as much as you want,anytime you want
+                    </span>
+                </details>
+
+                <details>
+                    <summary>
+                        <li class="all-li"><span>Is Netflix good for kids</span> <span class="bi bi-plus-lg"></span></li>
+
+                    </summary>
+
+                    <span>
+                        The Netflix Kids experance is included in your membership to give parents control while kids enjoy family-friendly Tv<br>
+                        <br>
+
+                        Kids profile come with PIN-protected parental control that let you restrict the maturity rating of content kids can watch<br>
+                         and block specific titles you do want's kids to see
+
+                    </span>
+                </details>
+
+                <button style="background-color: rgb(250, 0, 0); border-radius: 10px; border: none; margin-left: 550px; margin-top: 100px;">
+                    Get Started
+                </button>
+                <span style="margin-left:80px; margin-top: 100px;"  > create start your membership </span>
+                
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+       
+
+            <div class="membership">
+                <span class="btn-started">Get Started</span><br>
+                <span >Create or restart your membership</span>
+            </div>
+
+            <div class="help">
+                <span>Questions call <span class="underline">000-800-919-1743</span>
+            </div>
+
+            <div class="footer-1">
+                <div class="underline">
+                    <span>FAQ</span><br>
+                    <span>Invester Releation</span><br>
+                    <span>Privacy</span><br>
+                    <span>Speed Test</span><br>
+                </div>
+
+
+                <div class="underline">
+
+                    <span>Help Cetre</span><br>
+                    <span>Jobs</span><br>
+                    <span>Cookie Preference</span><br>
+                    <span>Legal Notices</span><br>
+
+                </div>
+
+                <div class="underline">
+                    <span>Account</span><br>
+                    <span>Ways to Watch</span><br>
+                    <span>Corparate Information</span><br>
+                    <span>Only on Netflix</span><br>
+
+                </div>
+
+
+                <div class="underline">
+                    <span>Media Ceter</span><br>
+                    <span>Terms of Use</span><br>
+                    <span>Contact Us</span>
+
+
+
+                </div>
+
+
+
+            </div>
+        
+    </footer>
+
+    
+</body>
+</html>
